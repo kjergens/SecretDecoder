@@ -52,8 +52,8 @@ public class MessageDecoder {
      */
     public static void main(String[] args) {
 	Scanner scan;
-	String message = "";
-	int messageNo = 1;
+	String msg = "";
+	int msgNum = 1;
 
 	// Get input
 	try {
@@ -68,11 +68,11 @@ public class MessageDecoder {
 
 	// Process each line of input
 	while (scan.hasNext()) {
-	    message = scan.nextLine();
+	    msg = scan.nextLine();
 
 	    // TODO: Decode the message
 
-	    System.out.println(messageNo++ + ". " + message + "\n");
+	    System.out.println(msgNum++ + ". " + msg + "\n");
 	}
 
 	// Clean up
