@@ -5,6 +5,21 @@ import java.io.FileReader;
 import java.util.Scanner;
 
 /**
+ * Grading Guide:
+ * 
+ * 72 pts for on time
+ * 
+ * 12 pts for base assignment (2 pts for each decoding rule)
+ * 
+ * 3 pts for documentation including name!
+ * 
+ * 3 pts for style
+ * 
+ * 5 pts for being able to also decode the images in ImageDecoder.java
+ * 
+ */
+
+/**
  * Decodes messages that have been encoded in the following way:
  * 
  * 1. All h's not at the beginning of the word became X’s.
