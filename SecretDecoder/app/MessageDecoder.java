@@ -41,7 +41,7 @@ import java.util.Scanner;
  * @author YOUR NAME
  *
  */
-public class SecretDecoder {
+public class MessageDecoder {
 
     /**
      * Main method takes in input file named encoded, decodes the messages in it
