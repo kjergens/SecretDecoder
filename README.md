@@ -26,14 +26,14 @@ Write a Java program to decode the messages.
 
 #Instructions
 ##Base Assignment (12 points)
-Git clone the starter code: https://github.com/daltonschool/SecretDecoder.git
+1. Git clone the starter code: https://github.com/daltonschool/SecretDecoder.git
 (Eclipse > Import... > Git > Project from Git > Clone URI)
 
-Open MessageDecoder.java.
+2. Open MessageDecoder.java.
 
-Run it. See it prints the messages from the text file named “encoded”.
+3. Run it. See it prints the messages from the text file named “encoded”.
 
-Your job is to decode the messages before it prints them.
+4. Your job is to decode the messages before it prints them.
 
 ## Initiative (5 points)
 Background: You can also encode images! The images in this project were encoded by switching all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. Open c.svg (included in this project) and you will see the lines were drawn in the wrong places. Same for t.svg and h.svg.
@@ -43,7 +43,7 @@ Background: You can also encode images! The images in this project were encoded 
 
 2. Open decoded.svg. It will look the same as the original.
 
-3. Add code to decode the image by switching all the x,y coordinates back.
+3. Your job is to decode the images by switching all the x,y coordinates back.
 
 4. If you succeed, decoded.svg will be the correct image.
 
