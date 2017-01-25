@@ -7,17 +7,17 @@ Strings, Regular Expressions
 #Summary
 Don’t let your messages be understood by hackers! You will get messages that have been secretly encoded in the following ways, in this order:
 
-All h's not at the beginning of the word became X’s.
+1. All h's not at the beginning of the word became X’s.
 
-All two adjacent vowels were surrounded by v's. e.g. either became veivther
+2. All two adjacent vowels were surrounded by v's. e.g. "either" became "veivther"
 
-Lowercase vowels shifted over: a became e, e became i, i became o, o became u, u became a.
+3. Lowercase vowels shifted over: a became e, e became i, i became o, o became u, u became a.
 
-Every 3-letter combination with an s in the middle was surrounded by f and r. E.g. asp became faspr
+4. Every 3-letter combination with an s in the middle was surrounded by f and r. E.g. "asp" became "faspr"
 
-Commas replaced spaces and spaces replaced commas. E.g. this i know became this,i,know
+5. Commas replaced spaces and spaces replaced commas. E.g. "this i know" became "this,i,know"
 
-Inserted y as second letter of each word.
+6. Inserted y as second letter of each word.
 
 
 Write a Java program to decode the messages.
