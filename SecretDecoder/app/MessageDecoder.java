@@ -71,7 +71,6 @@ public class MessageDecoder {
 	    message = scan.nextLine();
 
 	    // TODO: Decode the message
-	    // You should write a function below and call it here.
 
 	    System.out.println(messageNo++ + ". " + message + "\n");
 	}
