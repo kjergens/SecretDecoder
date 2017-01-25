@@ -33,24 +33,19 @@ Open MessageDecoder.java.
 
 Run it. See it prints the messages from the text file named “encoded”.
 
-Add code to decode the messages before it prints them.
+Your job is to decode the messages before it prints them.
 
 ## Initiative (5 points)
-Background: The images in this project were encoded by switching all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646.
+Background: You can also encode images! The images in this project were encoded by switching all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. Open c.svg (included in this project) and you will see the lines were drawn in the wrong places. Same for t.svg and h.svg.
 
-Open c.svg (included in this project) 
 
-It was encoded which means the lines are drawn in the wrong places.
+1. Run ImageDecoder.java and Refresh the project.
 
-Also see t.svg and h.svg. They were also encoded.
+2. Open decoded.svg. It will look the same as the original.
 
-Run ImageDecoder.java and Refresh the project.
+3. Add code to decode the image by switching all the x,y coordinates back.
 
-Open decoded.svg. It will look the same as the original.
-
-Add code to decode the image by switching all the x,y coordinates back.
-
-If you succeed, decoded.svg will be the correct image.
+4. If you succeed, decoded.svg will be the correct image.
 
 Hint: This initiative can be done with one line of code.
 
