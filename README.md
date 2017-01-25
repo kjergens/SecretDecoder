@@ -1,5 +1,4 @@
 # SecretDecoder
-CS-2: Assignment 5
 Secret Decoder
 
 #Skills
@@ -8,8 +7,9 @@ Strings, Regular Expressions
 #Summary
 Don’t let your messages be understood by hackers! You will get messages that have been secretly encoded in the following ways, in this order:
 
-*All h's not at the beginning of the word became X’s.
-*All two adjacent vowels were surrounded by v's. e.g. either became veivther
+All h's not at the beginning of the word became X’s.
+
+All two adjacent vowels were surrounded by v's. e.g. either became veivther
 
 Lowercase vowels shifted over: a became e, e became i, i became o, o became u, u became a.
 
@@ -25,7 +25,7 @@ Write a Java program to decode the messages.
 
 
 #Instructions
-##Base Assignment
+##Base Assignment (12 points)
 Git clone the starter code: https://github.com/daltonschool/SecretDecoder.git
 (Eclipse > Import... > Git > Project from Git > Clone URI)
 
@@ -35,7 +35,7 @@ Run it. See it prints the messages from the text file named “encoded”.
 
 Add code to decode the messages before it prints them.
 
-## Initiative
+## Initiative (5 points)
 Background: The images in this project were encoded by switching all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646.
 
 Open c.svg (included in this project) 
