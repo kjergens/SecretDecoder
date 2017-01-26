@@ -40,7 +40,7 @@ You can also encode images! The images in this project were encoded by a program
 
 1. Run ImageDecoder.java and Refresh the project.
 
-2. Open decoded_image.svg. (At first tt will look the same as the original.)
+2. Open decoded_image.svg. (At first it will look the same as the original.)
 
 3. Your job is to write code to switch all the x,y coordinates back.
 
