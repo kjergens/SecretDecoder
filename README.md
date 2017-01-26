@@ -35,7 +35,7 @@ Write a Java program to decode the secret messages.
 4. Your job is to decode the messages before it prints them.
 
 ### Initiative (5 points)
-Background: You can also encode images! The images in this project were encoded by a program that switched all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. 
+You can also encode images! The images in this project were encoded by a program that switched all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. 
 
 
 1. Run ImageDecoder.java and Refresh the project.
