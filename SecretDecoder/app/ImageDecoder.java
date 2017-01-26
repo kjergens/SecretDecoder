@@ -20,14 +20,14 @@ import java.util.Scanner;
  * 
  * Instructions:
  * 
- * Run this program and Refresh the project.
+ * Run this program.
  * 
- * Open decoded_image.svg. It will look the same as the original.
+ * Open the decoded images. It will look the same as the original.
  * 
  * Decode the images by switching all the x,y coordinates back to where they
  * belong.
  * 
- * Run the program again and decoded.svg will be the decoded image.
+ * Run the program again and decoded images should be fixed.
  * 
  * 
  * @author YOUR NAME

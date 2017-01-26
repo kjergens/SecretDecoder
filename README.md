@@ -4,7 +4,7 @@
 Strings, Regular Expressions
 
 ##Summary
-Don’t let your messages be understood by hackers! The messages in the project have been secretly encoded in the following ways, in this order:
+Don’t let your messages be understood by hackers! There is a file in this project secret_messages.txt. It contains messages that have been encoded in the following ways, in this order:
 
 1. All two adjacent vowels were surrounded by v's. e.g. "either" became "veivther"
 
@@ -30,21 +30,22 @@ Write a Java program to decode the secret messages.
 
 2. Open MessageDecoder.java.
 
-3. Run it. See it prints the messages from the text file named secret_messages.txt.
+3. Run it. See it prints the messages from secret_messages.txt.
 
 4. Your job is to decode the messages before it prints them.
 
 ### Initiative (5 points)
 You can also encode images! The images in this project were encoded by a program that switched all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. 
 
+1. Open the secret images included in this project.
 
-1. Run ImageDecoder.java and Refresh the project.
+2. Run ImageDecoder.java.
 
-2. Open decoded_image.svg. (At first it will look the same as the original.)
+3. Now open the decoded images. (At first it will look the same as the original.)
 
 3. Your job is to write code to switch all the x,y coordinates back.
 
-4. If you succeed, decoded_image.svg will be the correct image.
+4. If you succeed, the decoded images will go back to their original form.
 
 Hint: This initiative can be done with one line of code.
 
