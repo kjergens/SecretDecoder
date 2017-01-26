@@ -1,5 +1,4 @@
-# SecretDecoder
-Secret Decoder
+# Secret Decoder
 
 #Skills
 Strings, Regular Expressions
