@@ -22,7 +22,7 @@ import java.util.Scanner;
  * 
  * Run this program and Refresh the project.
  * 
- * Open decoded.svg. It will look the same as the original.
+ * Open decoded_image.svg. It will look the same as the original.
  * 
  * Decode the images by switching all the x,y coordinates back to where they
  * belong.
@@ -44,8 +44,7 @@ public class ImageDecoder {
 	 */
 	try {
 	    // Attempt to open file
-	    FileReader file = new FileReader("c.svg"); // also try h.svg and
-						       // t.svg
+	    FileReader file = new FileReader("secret_image1.svg"); 
 	    scan = new Scanner(file);
 	} catch (FileNotFoundException e) {
 	    // If can't find file, take input from the console.
@@ -73,7 +72,7 @@ public class ImageDecoder {
 	/*
 	 * Save decoded to an output file
 	 */
-	File output = new File("decoded.svg");
+	File output = new File("decoded_image.svg");
 	try {
 	    // creates the file
 	    output.createNewFile();

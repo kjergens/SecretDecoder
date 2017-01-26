@@ -22,21 +22,21 @@ import java.util.Scanner;
 /**
  * Decodes messages that have been encoded in the following way:
  * 
- * 1. All h's not at the beginning of the word became X’s.
- * 
- * 2. All two adjacent vowels were surrounded by v's. e.g. either became
+ * 1. All two adjacent vowels were surrounded by v's. e.g. either became
  * veivther
  * 
- * 3. Lowercase vowels shifted over: a became e, e became i, i became o, o
+ * 2. Lowercase vowels shifted over: a became e, e became i, i became o, o
  * became u, u became a.
  * 
- * 4. Every 3-letter combination with an s in the middle was surrounded by f and
- * r. E.g. asp became faspr
+ * 3. Every 3-letter combination with an s in the middle was surrounded by f and
+ * r. E.g. "asp" became "faspr"
  * 
- * 5. Commas replaced spaces and spaces replaced commas. E.g. this i know became
- * this,i,know
+ * 4. Commas replaced spaces and spaces replaced commas. E.g. "this i know" became
+ * "this,i,know"
  * 
- * 6. Inserted y as second letter of each word.
+ * 5. All "nn" became "Xd".
+ * 
+ * 6. Appended "yy" at end of every word.
  * 
  * @author YOUR NAME
  *
@@ -44,7 +44,7 @@ import java.util.Scanner;
 public class MessageDecoder {
 
     /**
-     * Main method takes in input file named encoded, decodes the messages in it
+     * Main method takes in input file, decodes the messages in it
      * and prints them.
      * 
      * @param args
@@ -57,22 +57,23 @@ public class MessageDecoder {
 
 	// Get input
 	try {
-	    // Attempt to open file named "encoded"
-	    FileReader file = new FileReader("encoded");
+	    // Attempt to open file
+	    FileReader file = new FileReader("secret_messages.txt");
 	    scan = new Scanner(file);
 	} catch (FileNotFoundException e) {
 	    // If can't find file, take input from the console.
-	    System.out.println("Could not open file. Enter data in console.");
+	    System.out.println("Could not open file. Enter messages in console.");
 	    scan = new Scanner(System.in);
 	}
 
-	// Process each line of input
+	// Process each message
 	while (scan.hasNext()) {
 	    msg = scan.nextLine();
 
 	    // TODO: Decode the message
 
-	    System.out.println(msgNum++ + ". " + msg + "\n");
+	    // Display message
+	    System.out.println(msg);
 	}
 
 	// Clean up
