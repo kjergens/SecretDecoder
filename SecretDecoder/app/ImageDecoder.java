@@ -14,8 +14,8 @@ import java.util.Scanner;
  * 
  * Background:
  * 
- * The images in this project were encoded by switching all the x,y coordinates, e.g.
- * 0.646,2.49 became 2.49,0.646.
+ * The images in this project were encoded by switching all the x,y coordinates,
+ * e.g. 0.646,2.49 became 2.49,0.646.
  * 
  * 
  * Instructions:
@@ -36,55 +36,61 @@ import java.util.Scanner;
 public class ImageDecoder {
 
     public static void main(String[] args) {
-	Scanner scan;
-	String svg = "";
+	Scanner scan = new Scanner(System.in);
+	int count = 0;
 
 	/*
-	 * Open image to an output file
+	 * Attempt to open image files
 	 */
 	try {
-	    // Attempt to open file
-	    FileReader file = new FileReader("secret_image1.svg"); 
-	    scan = new Scanner(file);
+	    FileReader file1 = new FileReader("secret_image1.svg");
+	    FileReader file2 = new FileReader("secret_image2.svg");
+	    FileReader file3 = new FileReader("secret_image3.svg");
+	    FileReader[] images = { file1, file2, file3 };
+	    
+	    // Process each image
+	    for (FileReader image : images) {
+		
+		/*
+		 * Scan the svg and save to a String
+		 */
+		scan = new Scanner(image);
+		String svg = "";
+		while (scan.hasNextLine()) {
+		    svg += scan.nextLine();
+		}
+
+		/*
+		 * Decode the svg
+		 */
+		// TODO: write code here to decode the svg
+		// HINT: it can be done in one line.
+
+		System.out.println(svg);
+
+		/*
+		 * Save decoded to an output file
+		 */
+	
+		File output = new File("decoded_image" + ++count + ".svg");
+		try {
+		    // creates the file
+		    output.createNewFile();
+
+		    FileWriter writer = new FileWriter(output);
+
+		    writer.write(svg);
+		    writer.close();
+
+		    System.out.println("Successfully created file " + output.getPath() + "\n");
+		} catch (Exception e) {
+		    System.out.println("Could not create file.");
+		    System.out.println(e.getStackTrace());
+		}
+	    }
 	} catch (FileNotFoundException e) {
-	    // If can't find file, take input from the console.
-	    System.out.println("Could not open file. Paste svg here:");
-	    System.out.println(e.getStackTrace());
-	    scan = new Scanner(System.in);
-	}
-
-	/*
-	 * Save svg info to a String
-	 */
-	while (scan.hasNextLine()) {
-	    svg += scan.nextLine();
-	    svg += "\n";
-	}
-
-	/*
-	 * Decode the svg
-	 */
-	// TODO: write code here to decode the svg
-	// HINT: it can be done in one line.
-
-	System.out.println(svg);
-
-	/*
-	 * Save decoded to an output file
-	 */
-	File output = new File("decoded_image.svg");
-	try {
-	    // creates the file
-	    output.createNewFile();
-
-	    FileWriter writer = new FileWriter(output);
-
-	    writer.write(svg);
-	    writer.close();
-
-	    System.out.println("Successfully created file " + output.getAbsolutePath());
-	} catch (Exception e) {
-	    System.out.println("Could not create file.");
+	    // If can't find files
+	    System.out.println("Could not open image files.");
 	    System.out.println(e.getStackTrace());
 	}
 
