@@ -20,7 +20,8 @@ import java.util.Scanner;
  * 
  * Instructions:
  * 
- * Open the secret images.
+ * Open the secret images. (Control-click on secret_image1.svg, Open With, Other..., Internal Web
+ * Browser, select the 2 check boxes, select OK. Now all the images will open in a new tab.)
  * 
  * Run program and open decoded images. (They will look the same at first.)
  * 
