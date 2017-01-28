@@ -38,7 +38,7 @@ Write a Java program to decode the secret messages. Hint: Use the <a href="Regul
 ### Initiative (5 points)
 You can also encode images! The images in this project were encoded by a program that switched all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. 
 
-1. Open the secret images included in this project. ((Control-click on secret_image1.svg, Open With, Other..., Internal Web Browser, select the 2 check boxes, select OK. Now all the images will open in a new tab.))
+1. Open the secret images included in this project. (Control-click on secret_image1.svg, Open With, Other..., Internal Web Browser, select the 2 check boxes, select OK. Now all the images will open in a new tab.)
 
 2. Run ImageDecoder.java.
 
