@@ -34,6 +34,8 @@ Write a Java program to decode the secret messages.
 
 4. Your job is to decode the messages before it prints them.
 
+HINT: Use the <a href="SecretDecoder/RegularExpressions.pdf">Regular Expressions cheat sheet</a>
+
 ### Initiative (5 points)
 You can also encode images! The images in this project were encoded by a program that switched all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. 
 
