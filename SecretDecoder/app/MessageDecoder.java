@@ -31,8 +31,8 @@ import java.util.Scanner;
  * 3. Every 3-letter combination with an s in the middle was surrounded by f and
  * r. E.g. "asp" became "faspr"
  * 
- * 4. Commas replaced spaces and spaces replaced commas. E.g. "this i know" became
- * "this,i,know"
+ * 4. Commas replaced spaces and spaces replaced commas. E.g. "this i know"
+ * became "this,i,know"
  * 
  * 5. All "nn" became "Xd".
  * 
@@ -44,40 +44,47 @@ import java.util.Scanner;
 public class MessageDecoder {
 
     /**
-     * Main method takes in input file, decodes the messages in it
-     * and prints them.
+     * Take in input file, decode the messages in it and print
+     * them.
      * 
      * @param args
      *            - not used
      */
     public static void main(String[] args) {
-	Scanner scan;
-	String msg = "";
-	int msgNum = 1;
+        Scanner scan;
+        String msg = "";
 
-	// Get input
-	try {
-	    // Attempt to open file
-	    FileReader file = new FileReader("secret_messages.txt");
-	    scan = new Scanner(file);
-	} catch (FileNotFoundException e) {
-	    // If can't find file, take input from the console.
-	    System.out.println("Could not open file. Enter messages in console.");
-	    scan = new Scanner(System.in);
-	}
+        // Get input
+        try {
+            // Attempt to open file
+            FileReader file = new FileReader("secret_messages.txt");
+            scan = new Scanner(file);
+        } catch (FileNotFoundException e) {
+            // If can't find file, take input from the console.
+            System.out.println("Could not open file. Enter messages in console.");
+            scan = new Scanner(System.in);
+        }
 
-	// Process each message
-	while (scan.hasNext()) {
-	    msg = scan.nextLine();
+        // Process each message
+        while (scan.hasNext()) {
+            msg = scan.nextLine();
 
-	    // TODO: Decode the message
+            // TODO:
+            // 
+            // 1. Write a function below called "decode" that takes in an encoded
+            // message as a String and returns a decoded message as a String.
+            //
+            // 2. Call that function here, e.g. msg = decode(msg);
+            //
 
-	    // Display message
-	    System.out.println(msg);
-	}
+            // Display message
+            System.out.println(msg);
+        }
 
-	// Clean up
-	scan.close();
+        // Clean up
+        scan.close();
 
     }
+    
+    // TODO: Here is where you add the decode function.
 }
