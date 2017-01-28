@@ -19,7 +19,8 @@ Don’t let your messages be understood by hackers! There is a file in this proj
 6. "yy" was appended to the end of every word.
 
 
-Write a Java program to decode the secret messages.
+Write a Java program to decode the secret messages. Hint: Use the <a href="RegularExpressions.pdf">Regular Expressions cheat sheet</a>.
+
 
 
 
@@ -33,8 +34,6 @@ Write a Java program to decode the secret messages.
 3. Run it. See it prints the messages from secret_messages.txt.
 
 4. Your job is to decode the messages before it prints them.
-
-HINT: Use the <a href="RegularExpressions.pdf">Regular Expressions cheat sheet</a>.
 
 ### Initiative (5 points)
 You can also encode images! The images in this project were encoded by a program that switched all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. 
