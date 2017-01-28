@@ -42,7 +42,7 @@ You can also encode images! The images in this project were encoded by a program
 
 2. Run ImageDecoder.java.
 
-3. Now open the decoded images. (At first it will look the same as the original.)
+3. Open the decoded images. (At first they will look the same as the original.)
 
 3. Your job is to write code to switch all the x,y coordinates back.
 
