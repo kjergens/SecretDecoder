@@ -1,4 +1,5 @@
-# Secret Decoder
+
+<h1>Secret Decoder</h1>
 
 ##Skills
 Strings, Regular Expressions
