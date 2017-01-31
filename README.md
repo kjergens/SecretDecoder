@@ -26,7 +26,7 @@ Write a Java program to decode the secret messages. Hint: Use the <a href="Regul
 
 
 <h2>Instructions</h2>
-<h3>Base Assignment (12 points)<h3>
+<h3>Base Assignment (12 points)</h3>
 1. Git clone the starter code: https://github.com/daltonschool/SecretDecoder.git
 (Eclipse > Import... > Git > Project from Git > Clone URI)
 
