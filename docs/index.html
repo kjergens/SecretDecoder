@@ -1,4 +1,10 @@
 
+<html>
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
 <h1>Secret Decoder</h1>
 
 <h2>Skills</h2>
@@ -9,17 +15,17 @@
 Don’t let your messages be understood by hackers! There is a file in this project secret_messages.txt. It contains messages that have been encoded in the following ways, in this order:</p>
 
 <ol>
-<li>All two adjacent vowels were surrounded by v's. e.g. "either" became "veivther"
+<li>All two adjacent vowels were surrounded by v's. e.g. "either" became "veivther"</li>
 
-<li>Lowercase vowels shifted over: a became e, e became i, i became o, o became u, u became a.
+<li>Lowercase vowels shifted over: a became e, e became i, i became o, o became u, u became a.</li>
 
-<li>Every 3-letter combination with an s in the middle was surrounded by f and r. E.g. "asp" became "faspr"
+<li>Every 3-letter combination with an s in the middle was surrounded by f and r. E.g. "asp" became "faspr"</li>
 
-<li>Commas replaced spaces and spaces replaced commas. E.g. "this i know" became "this,i,know"
+<li>Commas replaced spaces and spaces replaced commas. E.g. "this i know" became "this,i,know"</li>
 
-<li>Every occurrance of "nn" became "Xd".
+<li>Every occurrance of "nn" became "Xd".</li>
 
-<li>"yy" was appended to the end of every word.
+<li>"yy" was appended to the end of every word.</li>
 </ol>
 
 <p>Write a Java program to decode the secret messages. Hint: Use the <a href="RegularExpressions.pdf">Regular Expressions cheat sheet</a>.</p>
@@ -31,27 +37,27 @@ Don’t let your messages be understood by hackers! There is a file in this proj
 <h3>Base Assignment (12 points)</h3>
 <ol>
 <li>Git clone the starter code: https://github.com/daltonschool/SecretDecoder.git
-(Eclipse > Import... > Git > Project from Git > Clone URI)
+(Eclipse > Import... > Git > Project from Git > Clone URI)</li>
 
-<li>Open MessageDecoder.java.
+<li>Open MessageDecoder.java.</li>
 
-<li>Run it. See it prints the messages from secret_messages.txt.
+<li>Run it. See it prints the messages from secret_messages.txt.</li>
 
-<li>Your job is to decode the messages before it prints them.
+<li>Your job is to decode the messages before it prints them.</li>
 </ol>
 <h3> Initiative (5 points)</h3>
 <p>
 You can also encode images! The images in this project were encoded by a program that switched all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. </p>
 <ol>
-<li>Open the secret images included in this project. (Control-click on secret_image1.svg, Open With, Other..., Internal Web Browser, select the 2 check boxes, select OK. Now all the images will open in a new tab.)
+<li>Open the secret images included in this project. (Control-click on secret_image1.svg, Open With, Other..., Internal Web Browser, select the 2 check boxes, select OK. Now all the images will open in a new tab.)</li>
 
 <li>Run ImageDecoder.java.
 
-<li>Open the decoded images. (At first they will look the same as the original.)
+<li>Open the decoded images. (At first they will look the same as the original.)</li>
 
-<li>Your job is to write code to switch all the x,y coordinates back.
+<li>Your job is to write code to switch all the x,y coordinates back.</li>
 
-<li>If you succeed, the decoded images will go back to their original form.
+<li>If you succeed, the decoded images will go back to their original form.</li>
 
 <p>Hint: This initiative can be done with one line of code.</p>
 </ol>
@@ -67,4 +73,7 @@ You can also encode images! The images in this project were encoded by a program
  3 pts for style
   
  5 pts for also decoding the images
+</body>
+ </html>
+
 
