@@ -1,9 +1,10 @@
-# Secret Decoder
 
-##Skills
+<h1>Secret Decoder</h1>
+
+<h2>Skills</h2>
 Strings, Regular Expressions
 
-##Summary
+<h2>Summary</h2>
 Don’t let your messages be understood by hackers! There is a file in this project secret_messages.txt. It contains messages that have been encoded in the following ways, in this order:
 
 1. All two adjacent vowels were surrounded by v's. e.g. "either" became "veivther"
@@ -24,8 +25,8 @@ Write a Java program to decode the secret messages. Hint: Use the <a href="Regul
 
 
 
-##Instructions
-###Base Assignment (12 points)
+<h2>Instructions</h2>
+<h3>Base Assignment (12 points)<h3>
 1. Git clone the starter code: https://github.com/daltonschool/SecretDecoder.git
 (Eclipse > Import... > Git > Project from Git > Clone URI)
 
@@ -35,7 +36,7 @@ Write a Java program to decode the secret messages. Hint: Use the <a href="Regul
 
 4. Your job is to decode the messages before it prints them.
 
-### Initiative (5 points)
+<h3> Initiative (5 points)</h3>
 You can also encode images! The images in this project were encoded by a program that switched all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. 
 
 1. Open the secret images included in this project. (Control-click on secret_image1.svg, Open With, Other..., Internal Web Browser, select the 2 check boxes, select OK. Now all the images will open in a new tab.)
@@ -51,7 +52,7 @@ You can also encode images! The images in this project were encoded by a program
 Hint: This initiative can be done with one line of code.
 
 
-##Grading Guide:
+<h2>Grading Guide:</h2>
   
  72 pts for on time.
   
