@@ -5,22 +5,24 @@
 Strings, Regular Expressions
 
 <h2>Summary</h2>
-Don’t let your messages be understood by hackers! There is a file in this project secret_messages.txt. It contains messages that have been encoded in the following ways, in this order:
+<p>
+Don’t let your messages be understood by hackers! There is a file in this project secret_messages.txt. It contains messages that have been encoded in the following ways, in this order:</p>
 
-1. All two adjacent vowels were surrounded by v's. e.g. "either" became "veivther"
+<ol>
+<li>1. All two adjacent vowels were surrounded by v's. e.g. "either" became "veivther"
 
-2. Lowercase vowels shifted over: a became e, e became i, i became o, o became u, u became a.
+<li>2. Lowercase vowels shifted over: a became e, e became i, i became o, o became u, u became a.
 
-3. Every 3-letter combination with an s in the middle was surrounded by f and r. E.g. "asp" became "faspr"
+<li>3. Every 3-letter combination with an s in the middle was surrounded by f and r. E.g. "asp" became "faspr"
 
-4. Commas replaced spaces and spaces replaced commas. E.g. "this i know" became "this,i,know"
+<li>4. Commas replaced spaces and spaces replaced commas. E.g. "this i know" became "this,i,know"
 
-5. Every occurrance of "nn" became "Xd".
+<li>5. Every occurrance of "nn" became "Xd".
 
-6. "yy" was appended to the end of every word.
+<li>6. "yy" was appended to the end of every word.
+</ol>
 
-
-Write a Java program to decode the secret messages. Hint: Use the <a href="RegularExpressions.pdf">Regular Expressions cheat sheet</a>.
+<p>Write a Java program to decode the secret messages. Hint: Use the <a href="RegularExpressions.pdf">Regular Expressions cheat sheet</a>.</p>
 
 
 
