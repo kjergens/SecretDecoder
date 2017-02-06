@@ -5,18 +5,47 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css">
 </head>
+
+<style>
+
+#header, #footer {
+	padding: 20px 60px 30px;
+	background-color: #3a3a3a; 
+	color: white; 
+}
+
+#header {
+	margin-bottom: 30px;
+}
+
+#header h1 {
+	font-size: 3.5em;
+}
+
+#footer{ 
+	height: 200px; 
+	margin-top: 50px
+ }
+
+</style>
+
 <body>
 
-<div class="container">
+<div id="header">
 <h1>Secret Decoder</h1>
-<hr>
+<h4>CS-2 Assignment #5, Winter 2017</h4>
+</div>
 
-<h2>Skills</h2>
+
+<div class="container">
+<div class="row">
+
+<h1>Skills</h1>
 <p>Strings, Regular Expressions</p>
 
 <hr>
 
-<h2>Summary</h2>
+<h1>Summary</h1>
 <p>
 Don't let your messages be understood by hackers! There is a file in this project secret_messages.txt. It contains messages that have been encoded in the following ways, in this order:</p>
 
@@ -39,8 +68,8 @@ Don't let your messages be understood by hackers! There is a file in this projec
 
 <hr>
 
-<h2>Instructions</h2>
-<h3>Base Assignment (12 points)</h3>
+<h1>Instructions</h1>
+<h3>MessageDecoder (12 points)</h3>
 <ol>
 <li>Git clone the starter code: https://github.com/daltonschool/SecretDecoder.git
 (Eclipse > Import... > Git > Project from Git > Clone URI)</li>
@@ -51,9 +80,9 @@ Don't let your messages be understood by hackers! There is a file in this projec
 
 <li>Your job is to decode the messages before it prints them.</li>
 </ol>
-<h3> Initiative (5 points)</h3>
+<h3>ImageDecoder (5 points)</h3>
 <p>
-You can also encode images! The images in this project were encoded by a program that switched all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. </p>
+You can also encode images! The secret images in this project were encoded by switching all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. </p>
 <ol>
 <li>Open the images included in this project. 
 	<ul><li>Control-click on any svg to get the side menu. </li>
@@ -69,26 +98,30 @@ You can also encode images! The images in this project were encoded by a program
 
 <li>If you succeed, the decoded images will go back to their original form.</li>
 </ol>
-
+<br>
 <p>Hint: This initiative can be done with one line of code.</p>
 
 
 <hr>
 
-<h2>Grading Guide:</h2>
+<h1>Grading Guide:</h1>
 <ul>
   
  <li>72 pts for on time.</li>
   
- <li>12 pts for base assignment (2 pts for each decoding rule).</li>
+ <li>12 pts for MessageDecoder (2 pts for each decoding rule).</li>
   
  <li>3 pts for documentation including name!</li>
   
  <li>3 pts for style</li>
   
- <li>5 pts for also decoding the images</li>
+ <li>5 pts for ImageDecoder</li>
  </ul>
- </div>
+
+</div> <!--end row-->
+ </div> <!-- end container -->
+
+ <div id="footer"></div>
 </body>
  </html>
 
