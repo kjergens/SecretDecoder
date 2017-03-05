@@ -4,17 +4,18 @@
 <h2>Skills</h2>
 Strings, Regular Expressions
 
-<h2>Getting Started</h2>
-
-1. Git clone the starter code: https://github.com/daltonschool/SecretDecoder.git
-(Eclipse > Import... > Git > Project from Git > Clone URI)
-
-2. Expand the project to see all the files it includes (6 svg images, 1 pdf, 1 text file, and 2 .java files)
-
 <h2>Summary</h2>
 You will write two Java programs: one to decode secret messages and one to decode secret images. Hint: Use the <a href="RegularExpressions.pdf">Regular Expressions cheat sheet</a>.
 
 <h2>Instructions</h2>
+
+<h3>Getting Started</h3>
+
+1. Git clone the starter code: https://github.com/daltonschool/SecretDecoder.git
+(Eclipse > Import... > Git > Project from Git > Clone URI)
+
+2. Expand the project to see all the files (6 svg images, 1 pdf, 1 text file, and 2 .java files)
+
 <h3>Base Assignment: MessageDecoder (12 points)</h3>
 Don’t let your messages be understood by hackers! There is a file in this project secret_messages.txt. It contains 3 messages, but to keep them safe from hackers, they were first encoded in the following ways, in this order:
 
