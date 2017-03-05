@@ -23,6 +23,8 @@ Don’t let your messages be understood by hackers! There is a file in this proj
 
 6. "yy" was appended to the end of every word.
 
+Here are the instructions to get started:
+
 1. Git clone the starter code: https://github.com/daltonschool/SecretDecoder.git
 (Eclipse > Import... > Git > Project from Git > Clone URI)
 
@@ -33,9 +35,9 @@ Don’t let your messages be understood by hackers! There is a file in this proj
 4. Your job is to decode the messages before it prints them.
 
 <h3> Initiative: SvgImageDecoder (5 points)</h3>
-You can also encode images! The images in this project were encoded by a program that switched all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. Any pair that included a negative number was ignored, so you do not have to handle negative numbers either.
+You can also encode images! The images in this project were encoded by switching all the x,y coordinates to y,x, e.g. 0.646,2.49 became 2.49,0.646. Any pair that included a negative number was ignored, so you do not have to handle negative numbers.
 
-1. First, let's make it easier to see the images. Notice there is a little icon next to the .svg files. That icon represents the application that will open the image. It's probably Adobe Illustrator or some other external application. Let's change it so the image opens in Eclipse. Here are the steps:
+1. First, let's make it easier to see the images. Here are the steps:
   * Control-click on secret_image1.svg to get the menu.
   * Select Open With, Other..., Internal Web Browser, then PAUSE.
   * Select the 2 check boxes, select OK. Now all the images will open in a new tab in Eclipse.
@@ -47,7 +49,7 @@ You can also encode images! The images in this project were encoded by a program
 
 3. Your job is to write code to switch all the x,y coordinates back.
 
-4. After each change you make to SvgImageDecoder, run it and refresh the Internal Web Browser.
+4. After each change you make to SvgImageDecoder, run it and refresh the decoded_image in the Internal Web Browser.
 
 5. If you succeed, the decoded images will go back to their original form. 
 
