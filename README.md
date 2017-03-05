@@ -31,13 +31,7 @@ Don’t let your messages be understood by hackers! There is a file in this proj
 
 6. "yy" was appended to the end of every word.
 
-Here are the instructions to get started:
-
-2. Open MessageDecoder.java.
-
-3. Run it. See it prints the messages from secret_messages.txt.
-
-4. Your job is to decode the messages before it prints them.
+Your job is to edit MessageDecoder.java so that it decodes the messages before it prints them, i.e., reverts them back to how they were before the rules above were run.
 
 <h3> Initiative: SvgImageDecoder (5 points)</h3>
 You can also encode images! The images in this project were encoded by switching all the x,y coordinates to y,x, e.g. 0.646,2.49 became 2.49,0.646. Any pair that included a negative number was ignored, so you do not have to handle negative numbers.
