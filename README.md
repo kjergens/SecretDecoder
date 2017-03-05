@@ -5,6 +5,10 @@
 Strings, Regular Expressions
 
 <h2>Summary</h2>
+You will write two Java programs: one to decode some secret messages and one to decode some secret images. Hint: Use the <a href="RegularExpressions.pdf">Regular Expressions cheat sheet</a>.
+
+<h2>Instructions</h2>
+<h3>Base Assignment: MessageDecoder (12 points)</h3>
 Don’t let your messages be understood by hackers! There is a file in this project secret_messages.txt. It contains messages that have been encoded in the following ways, in this order:
 
 1. All two adjacent vowels were surrounded by v's. e.g. "either" became "veivther"
@@ -19,14 +23,6 @@ Don’t let your messages be understood by hackers! There is a file in this proj
 
 6. "yy" was appended to the end of every word.
 
-
-Write a Java program to decode the secret messages. Hint: Use the <a href="RegularExpressions.pdf">Regular Expressions cheat sheet</a>.
-
-
-
-
-<h2>Instructions</h2>
-<h3>Base Assignment: MessageDecoder (12 points)</h3>
 1. Git clone the starter code: https://github.com/daltonschool/SecretDecoder.git
 (Eclipse > Import... > Git > Project from Git > Clone URI)
 
