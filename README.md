@@ -9,7 +9,7 @@ You will write two Java programs: one to decode secret messages and one to decod
 
 <h2>Instructions</h2>
 <h3>Base Assignment: MessageDecoder (12 points)</h3>
-Don’t let your messages be understood by hackers! There is a file in this project secret_messages.txt. It contains messages that have been encoded in the following ways, in this order:
+Don’t let your messages be understood by hackers! There is a file in this project secret_messages.txt. It contains 3 messages, but to keep them safe from hackers, they were first encoded in the following ways, in this order:
 
 1. All two adjacent vowels were surrounded by v's. e.g. "either" became "veivther"
 
