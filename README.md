@@ -5,7 +5,7 @@
 Strings, Regular Expressions
 
 <h2>Summary</h2>
-You will write two Java programs: one to decode some secret messages and one to decode some secret images. Hint: Use the <a href="RegularExpressions.pdf">Regular Expressions cheat sheet</a>.
+You will write two Java programs: one to decode secret messages and one to decode secret images. Hint: Use the <a href="RegularExpressions.pdf">Regular Expressions cheat sheet</a>.
 
 <h2>Instructions</h2>
 <h3>Base Assignment: MessageDecoder (12 points)</h3>
