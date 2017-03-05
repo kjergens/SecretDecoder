@@ -26,7 +26,7 @@ Write a Java program to decode the secret messages. Hint: Use the <a href="Regul
 
 
 <h2>Instructions</h2>
-<h3>Base Assignment (12 points)</h3>
+<h3>Base Assignment: MessageDecoder (12 points)</h3>
 1. Git clone the starter code: https://github.com/daltonschool/SecretDecoder.git
 (Eclipse > Import... > Git > Project from Git > Clone URI)
 
@@ -36,23 +36,29 @@ Write a Java program to decode the secret messages. Hint: Use the <a href="Regul
 
 4. Your job is to decode the messages before it prints them.
 
-<h3> Initiative (5 points)</h3>
-You can also encode images! The images in this project were encoded by a program that switched all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. 
+<h3> Initiative: SvgImageDecoder (5 points)</h3>
+You can also encode images! The images in this project were encoded by a program that switched all the x,y coordinates, e.g. 0.646,2.49 became 2.49,0.646. Any pair that included a negative number was ignored, so you do not have to handle negative numbers either.
 
-1. Open the secret images included in this project. (Control-click on secret_image1.svg, Open With, Other..., Internal Web Browser, select the 2 check boxes, select OK. Now all the images will open in a new tab.)
+1. First, let's make it easier to see the images. Notice there is a little icon next to the .svg files. That icon represents the application that will open the image. It's probably Adobe Illustrator or some other external application. Let's change it so the image opens in Eclipse. Here are the steps:
+  * Control-click on secret_image1.svg to get the menu.
+  * Select Open With, Other..., Internal Web Browser, then PAUSE.
+  * Select the 2 check boxes, select OK. Now all the images will open in a new tab in Eclipse.
+  * Double-click an image to test it out.
 
-2. Run ImageDecoder.java.
+2. Run SvgImageDecoder.java.
 
 3. Open the decoded images. (At first they will look the same as the original.)
 
 3. Your job is to write code to switch all the x,y coordinates back.
 
-4. If you succeed, the decoded images will go back to their original form.
+4. After each change you make to SvgImageDecoder, run it and refresh the Internal Web Browser.
+
+5. If you succeed, the decoded images will go back to their original form. 
 
 Hint: This initiative can be done with one line of code.
 
 
-<h2>Grading Guide:</h2>
+<h2>Grading Rubric:</h2>
   
  72 pts for on time.
   
